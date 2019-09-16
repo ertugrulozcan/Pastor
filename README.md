@@ -1,0 +1,2 @@
+# Pastor
+ SignalR Connection Manager
