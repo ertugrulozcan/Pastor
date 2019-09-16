@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script src="~/js/signalrclient.js" asp-append-version="true"></script>
+
+<img src="images/signalr.png" width="200"/>
+<h4><span>SignalR Client </span><span id="connectionIdSpan"></span></h4>
+<div class="row">
+	<div class="window browser fading">
+		<div class="header">
+			<span class="bullet bullet-red"></span>
+			<span class="bullet bullet-yellow"></span>
+			<span class="bullet bullet-green"></span>
+			<span class="title">
+				<label for="signalrUrlInputBox"></label><input id="signalrUrlInputBox" value="http://localhost:9718/hub"/>
+			</span>
+
+			<button id="signalrConnectButton" type="submit" href="#">Connect</button>
+		</div>
+
+		<div class="body">
+			<div id="signalrOutputBox" class="output"></div>
+		</div>
+
+		<div class="footer">
+			<span class="title">
+				<label for="signalrMessageInputBox"></label><input id="signalrMessageInputBox"/>
+			</span>
+
+			<span>
+				<div id="connectionsDropdownDiv" class="outter-selection">
+					<div class="selection">
+						<span class="out-selector">
+							<span class="plain-selector">
+								<label>
+									<select id="connectionsDropdown" class="dropdown">
+										<!--
+										<option value="1" selected="selected">select 1</option>
+										<option value="2">select 2</option>
+										<option value="3">select 3</option>
+										<option value="4">select 4</option>
+										-->
+									</select>
+								</label>
+							</span>
+						</span>
+					</div>
+				</div>
+			</span>
+            
+			<button id="signalrSendButton" type="submit" href="#">Send</button>
+			<button id="signalrDataTransferTestButton" type="submit" href="#">Send Test Data</button>
+		</div>
+	</div>
+</div>
+
+<script>
+	initializeSignalR();
+</script>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>PhantomJS Script Test</title>
+	
+	<script>
+		var page = require('webpage').create();
+        page.open('http://example.com', function(status) 
+        {
+        	console.log("Status: " + status);
+        	if(status === "success") 
+        	{
+        		page.render('example.png');
+        	}
+        	
+        	phantom.exit();
+        });
+	</script>
+</head>
+<body>
+<div>
+	Ready
+</div>
+</body>
+</html>

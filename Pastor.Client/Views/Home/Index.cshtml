@@ -1,0 +1,196 @@
+﻿@{
+    ViewData["Title"] = "Connections Management";
+}
+
+<link rel="stylesheet" type="text/css" href="~/css/kingtable/examples.css">
+<link rel="stylesheet" href="~/css/kingtable/kingtable.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="theme-ertblack">
+	<div class="container-fluid">
+		<div class="blank_space_xs"></div>
+		
+		<div class="row">
+			<div class="col-md-3 justLoginVisible">
+				<table>
+					<tr>
+						<td>
+							<img src="images/pastor.png" class="mainPageLogo" />
+						</td>
+						<td>
+							<h3>Pastor</h3>
+							<h6 style="color: #5C5C5C">SignalR Connection Manager</h6>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="col-md-9">
+				<div class="admin-panel justLoginVisible" style="float: right; margin-top: 22px;">
+					<span style="color:#777777; font-size: 12px;vertical-align: middle; margin-right: 10px;">Server Url</span>
+					<label for="administrationUrlInputBox"></label><input id="administrationUrlInputBox" />
+					<button id="adminConnectButton" class="justLogoutVisible" type="submit" href="#">Connect</button>
+					<button id="adminDisconnectButton" class="justLoginVisible" type="submit" href="#">Disconnect</button>
+
+					<br />
+					<h5><span id="adminPanelConnectionIdSpan" style="font-family: Consolas;font-size: 12px;vertical-align: middle; float: right;"></span></h5>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid justLoginVisible">
+		<div class="blank_space_s"></div>
+		
+		<div id="connectionStatisticsDiv">
+			<div class="row">
+				<div class="col-lg-3">
+					<span class="kt-color" style="background-color:green;"></span><span class="kt-color-hex">Active connection count : <span id="activeConnectionCountSpan" style="font-weight: bolder;"></span></span>
+				</div>
+				<div class="col-lg-3">
+					<span class="kt-color" style="background-color:red;"></span><span class="kt-color-hex">Closed connection count : <span id="closedConnectionCountSpan" style="font-weight: bolder;"></span></span>
+				</div>
+				<div class="col-lg-6">
+
+				</div>
+			</div>
+		</div>
+
+		<div id="connectionsChart"></div>
+
+		<div class="blank_space_xs"></div>
+
+		<div id="tableDiv">
+
+		</div>
+
+		<div class="row" style="padding: 0 16px;">
+			<div class="blank_space_s"></div>
+
+			<button id="clearHistoryButton" type="submit" href="#">Clear History</button>
+		</div>
+	</div>
+	
+	<div class="blank_space_m"></div>
+	
+	<div class="justLogoutVisible">
+		<div class="blank_space_xl"></div>
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3 col-xs-12 col-xs-offset-0">
+				<div class="loginBox col-lg-6 col-lg-offset-3 col-xs-12 col-xs-offset-0 col-sm-6 col-sm-offset-3">
+					<div class="blank_space_s"></div>
+
+					<div class="row">
+						<div class="col-lg-6 col-lg-offset-3 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3">
+							<div style="padding: 15% 25%;">
+								<img src="images/pastor.png" class="loginPanelLogo" />
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<h3 style="text-align: center;">Pastor</h3>
+						<h6 style="text-align: center; color: #5C5C5C">SignalR Connection Manager</h6>
+
+						<div class="progress-ring">
+							<div class="outer">
+								<div class="inner">
+								</div>
+							</div>
+							<div class="outer" style="-webkit-animation-delay: 0.167s">
+								<div class="inner">
+								</div>
+							</div>
+							<div class="outer" style="-webkit-animation-delay: 0.334s">
+								<div class="inner">
+								</div>
+							</div>
+							<div class="outer" style="-webkit-animation-delay: 0.501s">
+								<div class="inner">
+								</div>
+							</div>
+							<div class="outer" style="-webkit-animation-delay: 0.668s">
+								<div class="inner">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-12 col-lg-offset-1 col-sm-12 col-sm-offset-1">
+								<div class="form-group">
+									<div class="col-sm-10">
+										<label for="loginPanelServerUrlInput"></label><input id="loginPanelServerUrlInput" class="form-control" type="text" placeholder="Server Url">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="blank_space_xs"></div>
+
+						<div class="row">
+							<div class="col-lg-4 col-lg-offset-4 col-xs-10 col-xs-offset-1">
+								<button id="loginPanelConnectButton" type="button" class="btn btn-default" style="width: 100%;">Connect</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="blank_space_m"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div style="width: 100px; margin: 50px auto 0 auto;">
+			<a href="https://github.com/ertugrulozcan/Pastor" target="_blank">
+				<span>View on GitHub </span>
+				<span style="position:absolute; margin: 3px 0 0 7px;">
+					<svg
+						version="1.1"
+						fill="white"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        class="octicon octicon-mark-github"
+                        aria-hidden="true">
+                        <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                    </svg>
+				</span>
+			</a>
+		</div>
+	</div>
+
+	<script src="~/js/kingtable/common.js"></script>
+	<script src="~/js/kingtable/es6-promise.js"></script>
+	<script src="~/js/kingtable/kingtable.js"></script>
+
+	<!-- for export to excel: -->
+	<script src="~/js/kingtable/xlsx.core.min.js" async="async"></script>
+	<script src="~/js/kingtable/blob.js" async="async"></script>
+	<script src="~/js/kingtable/kingtable.xlsx.js"></script>
+
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+	<script src="~/js/pastor.js" asp-append-version="true"></script>
+	<script src="~/js/charts.js" asp-append-version="true"></script>
+</div>
+
+<div class="justLoginVisible">
+	<div class="blank_space_xs"></div>
+	<hr />
+	<div style="float: right; margin-right: 30px;">
+    	<a href="https://github.com/ertugrulozcan/Pastor" target="_blank">
+    		<span>View on GitHub </span>
+    		<span style="position:absolute; margin: 3px 0 0 7px;">
+    			<svg
+    				version="1.1"
+    				fill="white"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    class="octicon octicon-mark-github"
+                    aria-hidden="true">
+                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
+    		</span>
+    	</a>
+    </div>
+</div>
