@@ -75,14 +75,6 @@ function timeSpanToString(timeSpan)
 	return daysPart + hoursPart + ":" + minutesPart + ":" + secondsPart + "." + milliSecondsPart;
 }
 
-function inflateTimeRangeByPercent(datetime, timespan, percent)
-{
-	if (timespan.days > 0) 
-	{
-		
-	}
-}
-
 function loadChartData(connections)
 {
 	var timeSeries = {};
