@@ -61,7 +61,7 @@ namespace Pastor.SignalR.Hubs
 		{
 			this.connectionService = connectionService;
 
-			this.connectionService.OnConnectionListChanged += this.ConnectionServiceOnOnConnectionListChanged;
+			this.connectionService.OnConnectionListChanged += this.ConnectionServiceOnConnectionListChanged;
 		}
 
 		#endregion
@@ -70,6 +70,11 @@ namespace Pastor.SignalR.Hubs
 		
 		public override Task OnConnectedAsync()
 		{
+			if (this.disposed)
+			{
+				return Task.CompletedTask;
+			}
+			
 			lock (this.threadLock)
 			{
 				this.connectionService.OpenConnection(this.Context, this.Clients.Caller);
@@ -80,6 +85,11 @@ namespace Pastor.SignalR.Hubs
 
 		public override Task OnDisconnectedAsync(Exception exception)
 		{
+			if (this.disposed)
+			{
+				return Task.CompletedTask;
+			}
+			
 			lock (this.threadLock)
 			{
 				this.connectionService.CloseConnection(this.Context.ConnectionId);
@@ -90,6 +100,9 @@ namespace Pastor.SignalR.Hubs
 
 		private void SubscribeConsoleOutputStream()
 		{
+			if (this.disposed)
+				return;
+
 			IConnection connection;
 			
 			lock (this.threadLock)
@@ -108,6 +121,9 @@ namespace Pastor.SignalR.Hubs
 
 		private void UnsubscribeConsoleOutputStream()
 		{
+			if (this.disposed)
+				return;
+			
 			IConnection connection;
 			
 			lock (this.threadLock)
@@ -147,6 +163,9 @@ namespace Pastor.SignalR.Hubs
 		/// <param name="cancellationToken"></param>
 		private async Task PostSignalREvent(string connectionId, string eventKey, object parameter, CancellationToken? cancellationToken = null)
 		{
+			if (this.disposed)
+				return;
+			
 			if (cancellationToken == null)
 				await this.Clients.Client(connectionId).SendAsync(eventKey, parameter);
 			else
@@ -163,6 +182,9 @@ namespace Pastor.SignalR.Hubs
 		/// <param name="cancellationToken"></param>
 		private async Task PublishSignalREvent(string eventKey, object parameter, CancellationToken? cancellationToken = null)
 		{
+			if (this.disposed)
+				return;
+			
 			if (cancellationToken == null)
 				await this.Clients.All.SendAsync(eventKey, parameter);
 			else
@@ -180,6 +202,9 @@ namespace Pastor.SignalR.Hubs
 		/// <param name="cancellationToken"></param>
 		private async Task PublishSignalREvent(string groupName, string eventKey, object parameter, CancellationToken? cancellationToken = null)
 		{
+			if (this.disposed)
+				return;
+			
 			if (cancellationToken == null)
 				await this.Clients.Group(groupName).SendAsync(eventKey, parameter);
 			else
@@ -196,6 +221,9 @@ namespace Pastor.SignalR.Hubs
 		/// <param name="cancellationToken"></param>
 		private async Task ReturnSignalREvent(string eventKey, object parameter, CancellationToken? cancellationToken = null)
 		{
+			if (this.disposed)
+				return;
+			
 			if (cancellationToken == null)
 				await this.Clients.Caller.SendAsync(eventKey, parameter);
 			else
@@ -206,12 +234,18 @@ namespace Pastor.SignalR.Hubs
 		
 		public async Task Whoami()
 		{
+			if (this.disposed)
+				return;
+			
 			LogHelper.PrintLog($"[{this.Context.ConnectionId}].Whoami();");
 			await this.ReturnSignalREvent(WhoamiRequestEventKey, this.Context.ConnectionId);
 		}
 
 		public async Task Shutdown(string connectionId)
 		{
+			if (this.disposed)
+				return;
+			
 			LogHelper.PrintLog($"[{this.Context.ConnectionId}].Shutdown({connectionId});");
 			lock (this.threadLock)
 			{
@@ -224,6 +258,9 @@ namespace Pastor.SignalR.Hubs
 
 		public async Task GetClientList()
 		{
+			if (this.disposed)
+				return;
+			
 			LogHelper.PrintLog($"[{this.Context.ConnectionId}].GetClientList();");
 			
 			List<string> connectionIds;
@@ -237,6 +274,9 @@ namespace Pastor.SignalR.Hubs
 		
 		public async Task GetOthers()
 		{
+			if (this.disposed)
+				return;
+			
 			LogHelper.PrintLog($"[{this.Context.ConnectionId}].GetOthers();");
 			
 			List<IConnection> connectionIds;
@@ -250,6 +290,9 @@ namespace Pastor.SignalR.Hubs
 
 		public async Task GetConnectionHistory()
 		{
+			if (this.disposed)
+				return;
+			
 			LogHelper.PrintLog($"[{this.Context.ConnectionId}].GetConnectionHistory();");
 			
 			List<IConnection> connections;
@@ -263,6 +306,9 @@ namespace Pastor.SignalR.Hubs
 		
 		public async Task ClearHistory()
 		{
+			if (this.disposed)
+				return;
+			
 			LogHelper.PrintLog($"[{this.Context.ConnectionId}].ClearHistory();");
 			
 			List<IConnection> connections;
@@ -279,8 +325,11 @@ namespace Pastor.SignalR.Hubs
 		
 		#region Event Handlers
 
-		private async void ConnectionServiceOnOnConnectionListChanged(object sender, ConnectionListChangedEventArgs e)
+		private async void ConnectionServiceOnConnectionListChanged(object sender, ConnectionListChangedEventArgs e)
 		{
+			if (this.disposed)
+				return;
+			
 			try
 			{
 				if (this.NotifyConnectionChangeToAllUsers)
@@ -288,10 +337,10 @@ namespace Pastor.SignalR.Hubs
 					switch (e.Method)
 					{
 						case ConnectionListChangedEventArgs.CollectionMethod.Add:
-							await this.PublishSignalREvent(OnConnectionOpenedEventKey, e.Connection.ConnectionId);
+							await this.PublishSignalREvent(OnConnectionOpenedEventKey, e.Connection);
 							break;
 						case ConnectionListChangedEventArgs.CollectionMethod.Remove:
-							await this.PublishSignalREvent(OnConnectionClosedEventKey, e.Connection.ConnectionId);
+							await this.PublishSignalREvent(OnConnectionClosedEventKey, e.Connection);
 							break;
 						case ConnectionListChangedEventArgs.CollectionMethod.Reset:
 							break;
@@ -299,17 +348,17 @@ namespace Pastor.SignalR.Hubs
 							throw new ArgumentOutOfRangeException();
 					}
 			
-					await this.PublishSignalREvent(OnConnectionListChangedEventKey, this.connectionService.GetConnections());	
+					// await this.PublishSignalREvent(OnConnectionListChangedEventKey, this.connectionService.GetConnections());
 				}
 				else
 				{
 					switch (e.Method)
 					{
 						case ConnectionListChangedEventArgs.CollectionMethod.Add:
-							await this.PublishSignalREvent(AdministratorGroup, OnConnectionOpenedEventKey, e.Connection.ConnectionId);
+							await this.PublishSignalREvent(AdministratorGroup, OnConnectionOpenedEventKey, e.Connection);
 							break;
 						case ConnectionListChangedEventArgs.CollectionMethod.Remove:
-							await this.PublishSignalREvent(AdministratorGroup, OnConnectionClosedEventKey, e.Connection.ConnectionId);
+							await this.PublishSignalREvent(AdministratorGroup, OnConnectionClosedEventKey, e.Connection);
 							break;
 						case ConnectionListChangedEventArgs.CollectionMethod.Reset:
 							break;
@@ -317,7 +366,7 @@ namespace Pastor.SignalR.Hubs
 							throw new ArgumentOutOfRangeException();
 					}
 			
-					await this.PublishSignalREvent(AdministratorGroup, OnConnectionListChangedEventKey, this.connectionService.GetConnections());
+					// await this.PublishSignalREvent(AdministratorGroup, OnConnectionListChangedEventKey, this.connectionService.GetConnections());
 				}
 			}
 			catch (Exception exception)
@@ -341,19 +390,19 @@ namespace Pastor.SignalR.Hubs
    
 		protected override void Dispose(bool disposing)
 		{
-			if (this.disposed)
-				return; 
-      
-			if (disposing)
+			lock (this.threadLock)
 			{
-				lock (this.threadLock)
+				if (this.disposed)
+					return; 
+      
+				if (disposing)
 				{
-					this.connectionService.OnConnectionListChanged -= this.ConnectionServiceOnOnConnectionListChanged;
+					this.connectionService.OnConnectionListChanged -= this.ConnectionServiceOnConnectionListChanged;
 					this.UnsubscribeConsoleOutputStream();
 				}
-			}
       
-			this.disposed = true;
+				this.disposed = true;		
+			}
 		}
 
 		~ObservableHub()
