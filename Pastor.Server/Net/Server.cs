@@ -1,12 +1,8 @@
 using System;
-using System.IO;
 using System.Text;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.DependencyInjection;
@@ -88,6 +84,7 @@ namespace Pastor.Server.Net
 				.AddDefaultTokenProviders();
 			*/
 
+			/*
 			this.Services.AddAuthentication(options =>
 			{
 	            // Identity made Cookie authentication the default.
@@ -130,6 +127,7 @@ namespace Pastor.Server.Net
 	                }
 	            };
 	        });
+			*/
 
 			this.Services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
