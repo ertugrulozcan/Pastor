@@ -6,7 +6,8 @@
     <title>@ViewData["Title"] - Pastor.Client</title>
 
     <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="~/css/json-viewer/jquery.json-viewer.css" />
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
 	<environment exclude="Development">
@@ -17,12 +18,29 @@
 	</environment>
 	
 	<script src="~/js/datetime.js"></script>
+	<script src="~/js/json-viewer/json-viewer.js"></script>
+	<script src="~/js/json-viewer/jquery.json-viewer.js"></script>
+	<script src="~/js/json-viewer/jquery.json-editor.js"></script>
 	<script src="~/lib/jquery/dist/jquery.js"></script>
 </head>
 <body onload="initializeSignalRAdmin()">
     <div class="container-fluid body-content">
         @RenderBody()
-        
+		
+		<div class="justLoginVisible">
+			<div class="testPanelDiv" style="visibility: hidden;">
+            	<div class="consoleTitleBar">
+            		<span>Test</span>
+            		<div class="closeButton">
+            			<a id="testPanelCloseButton"><i class="fa fa-times"></i></a>
+            		</div>
+            	</div>
+            	<textarea id="testPanelTextBox"></textarea>
+            	
+            	<button id="test-push-button" class="test-push-button">Push</button>
+            </div>
+		</div>
+
 		<div class="consoleDiv" style="visibility: hidden;">
 			<div class="consoleTitleBar">
 				<span>Console</span>
@@ -47,6 +65,7 @@
                         	<a href="#"><i class="fa fa-envelope"></i></a>
                         	<a href="#"><i class="fa fa-globe"></i></a>
 							<a href="#"><i class="fa fa-trash"></i></a>*@
+							<a id="testToggleButton"><i class="fa fa-bug"></i></a>
 							<a id="consoleToggleButton"><i class="fa fa-terminal"></i></a>
 						</div>
 					</td>

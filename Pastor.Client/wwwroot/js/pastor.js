@@ -22,8 +22,13 @@ var clearHistoryButton;
 var consoleTextBox;
 var consoleToggleButton;
 var consoleCloseButton;
+var testToggleButton;
+var testPanelCloseButton;
+var testPanelTextBox;
+var testPushButton;
 
 var isConsoleOpened = true;
+var isTestPanelOpened = false;
 
 var serverUrl = "";
 var myConnectionId;
@@ -116,6 +121,10 @@ function initializeSignalRAdmin()
 	consoleTextBox = document.getElementById("consoleTextBox");
 	consoleToggleButton = document.getElementById("consoleToggleButton");
 	consoleCloseButton = document.getElementById("consoleCloseButton");
+	testToggleButton = document.getElementById("testToggleButton");
+	testPanelCloseButton = document.getElementById("testPanelCloseButton");
+	testPanelTextBox = document.getElementById("testPanelTextBox");
+	testPushButton = document.getElementById("test-push-button");
 	
 	loginPanelServerUrlInput.addEventListener("keyup", function(event) 
 	{
@@ -203,6 +212,13 @@ function initializeSignalRAdmin()
 				showConsole();
 				alert("Connection failed.")
 			});
+			
+			signalrConnection.connection.onclose = function (error)
+			{
+				logout();
+				SignalRModule.error("Server connection lost. (Error : " + error + ")");
+				alert("Server connection lost.");
+			};
 		}
 		else
 		{
@@ -330,6 +346,18 @@ function initializeSignalRAdmin()
 		isConsoleOpened = false;
 	}
 	
+	function showTestPanel()
+	{
+		$('.testPanelDiv').css('visibility', 'visible');
+		isTestPanelOpened = true;
+	}
+	
+	function closeTestPanel()
+	{
+		$('.testPanelDiv').css('visibility', 'hidden');
+		isTestPanelOpened = false;
+	}
+	
 	consoleToggleButton.addEventListener("click", function (event)
 	{
 		if (isConsoleOpened) 
@@ -341,5 +369,37 @@ function initializeSignalRAdmin()
 	consoleCloseButton.addEventListener("click", function (event)
 	{
 		closeConsole();
+	});
+	
+	testPanelCloseButton.addEventListener("click", function (event)
+	{
+		closeTestPanel();
+	});
+	
+	testToggleButton.addEventListener("click", function (event)
+	{
+		if (isTestPanelOpened)
+			closeTestPanel();
+		else
+			showTestPanel();
+	});
+	
+	testPushButton.addEventListener("click", function (event)
+	{
+		var json = testPanelTextBox.value;
+		
+		if (signalrConnection !== null && signalrConnection !== undefined)
+		{
+			signalrConnection
+			.invoke("BroadcastLiveMatchEvent", json)
+			.catch(function(err)
+			{
+				SignalRModule.error("Error. (" + err.toString() + ")");
+			});
+		}
+		else
+		{
+			SignalRModule.error("Error. (SignalR connection instance is null!)");
+		}
 	});
 }
