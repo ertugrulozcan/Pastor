@@ -13,4 +13,9 @@
         <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="wwwroot\css\json-viewer" />
+      <Folder Include="wwwroot\js\json-viewer" />
+    </ItemGroup>
+
 </Project>
