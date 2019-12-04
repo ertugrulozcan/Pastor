@@ -21,138 +21,27 @@
     <option name="SHOW_CLOSE_PROMPT" value="true" />
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03885cdb-93a7-4e48-b3aa-28ef00659bc4" name="Default Changelist" comment="" />
+    <list default="true" id="03885cdb-93a7-4e48-b3aa-28ef00659bc4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pastor/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pastor/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pastor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pastor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pastor/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pastor/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pastor.Client/Pastor.Client.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pastor.Client/Pastor.Client.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pastor.Client/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pastor.Client/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pastor.Client/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Pastor.Client/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pastor.Client/wwwroot/js/pastor.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pastor.Client/wwwroot/js/pastor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pastor.SignalR/Hubs/ObservableHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pastor.SignalR/Hubs/ObservableHub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pastor.TestApp/wwwroot/js/signalrclient.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pastor.TestApp/wwwroot/js/signalrclient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pastor.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Pastor.sln" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pastor.SignalR/Hubs/ObservableHub.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-              <folding>
-                <marker date="1568663756952" expanded="true" signature="6:348" ph="..." />
-                <marker date="1568663756952" expanded="true" signature="379:10804" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="470:10802" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="476:1296" ph="Constants" />
-                <marker date="1568663756952" expanded="true" signature="1302:1390" ph="Services" />
-                <marker date="1568663756952" expanded="true" signature="1394:1467" ph="Fields" />
-                <marker date="1568663756952" expanded="true" signature="1473:1575" ph="Properties" />
-                <marker date="1568663756952" expanded="true" signature="1579:1934" ph="Constructors" />
-                <marker date="1568663756952" expanded="true" signature="1603:1698" ph="/// Constructor ... " />
-                <marker date="1568663756952" expanded="true" signature="1762:1920" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="1938:3807" ph="Methods" />
-                <marker date="1568663756952" expanded="true" signature="1998:2197" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="2262:2468" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="2515:2983" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="2741:2829" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="3032:3505" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="3258:3351" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="3561:3661" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="3746:3793" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="3811:8455" ph="Rpc Methods" />
-                <marker date="1568663756952" expanded="true" signature="3834:4061" ph="/// Publish to single client ... " />
-                <marker date="1568663756952" expanded="true" signature="4200:4537" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="4543:4726" ph="/// Publish to all clients ... " />
-                <marker date="1568663756952" expanded="true" signature="4847:5145" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="5151:5373" ph="/// Publish to all clients ... " />
-                <marker date="1568663756952" expanded="true" signature="5512:5836" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="5842:6032" ph="/// Publish to just caller client ... " />
-                <marker date="1568663756952" expanded="true" signature="6152:6445" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="6477:6636" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="6687:7015" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="7052:7351" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="7386:7700" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="7744:8060" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="8098:8441" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="8461:10230" ph="Event Handlers" />
-                <marker date="1568663756952" expanded="true" signature="8597:10216" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="8608:10043" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="8660:9315" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="8689:9193" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="9324:10038" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="9353:9897" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="10074:10212" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="10234:10799" ph="Disposing" />
-                <marker date="1568663756952" expanded="true" signature="10309:10382" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="10436:10733" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="10500:10697" ph="{...}" />
-                <marker date="1568663756952" expanded="true" signature="10753:10785" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pastor.Client/Views/Home/Index.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#!!top" />
-                <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#a#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#a#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <marker date="1568667384600" expanded="true" signature="0:54" ph="@..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pastor.SignalR/Services/ConnectionService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1577">
-              <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
-              <folding>
-                <marker date="1567970508997" expanded="true" signature="6:343" ph="..." />
-                <marker date="1567970508997" expanded="true" signature="378:5853" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="433:5851" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="439:730" ph="Properties" />
-                <marker date="1567970508997" expanded="true" signature="734:848" ph="Events" />
-                <marker date="1567970508997" expanded="true" signature="852:5848" ph="Methods" />
-                <marker date="1567970508997" expanded="true" signature="924:1057" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="1104:1181" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="1234:1312" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="1342:1590" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="1449:1586" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="1508:1581" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="1674:2021" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="1735:2017" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="1832:1952" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="2063:2148" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="2207:2327" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="2419:3358" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="2554:3237" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="2893:2957" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="3103:3206" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="3245:3354" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="3431:3720" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="3517:3581" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="3600:3696" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="3781:4357" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="3866:4330" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="3944:4218" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="4101:4210" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="4227:4324" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="4409:4762" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="4506:4736" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="4569:4731" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="4855:5832" ph="{...}" />
-                <marker date="1567970508997" expanded="true" signature="5011:5809" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -161,86 +50,53 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>popover</find>
-      <find>tableDiv</find>
-      <find>connectionList</find>
-      <find>footer</find>
-      <find>consoleToggleButton</find>
-      <find>clearHistoryButton</find>
-      <find>OnConnectionClosedEventKey</find>
-      <find>SignalRModule.log</find>
-      <find>signalrConnectButton</find>
-      <find>maxAxisTime</find>
-      <find>altpcSpan</find>
-      <find>averageLifeTime</find>
-      <find>analyzeConnectionStatistics</find>
-      <find>isConnected</find>
-      <find>adminPanelConnectionIdSpan</find>
-      <find>justLoggedInVisible</find>
-      <find>mainConnectionsDiv</find>
-      <find>admin-</find>
-      <find>greenSeaweed</find>
-      <find>adminConnectButton</find>
-      <find>localhost</find>
-      <find>setServerUrl</find>
-      <find>container</find>
-      <find>progress</find>
-      <find>getTime</find>
-      <find>mina</find>
-      <find>console</find>
-      <find>output</find>
-      <find>signalrOutputBox</find>
-      <find>minAxisTime</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Pastor.Client/app.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EEE77CDA-B32D-4586-A92A-322853CCE8B6/1b/cc6f2683/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Auth/UserRoles.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Helpers/LinqExtension.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/540A30D0-A031-4084-807D-B058D5033896/59/1d818192/InvalidOperationException.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Sys/ConsoleWriter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Server/Hubs/MessengerHub.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.TestApp/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Server/Net/Server.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.TestApp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.TestApp/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Net/IConnection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.TestApp/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Net/ConnectionState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Events/ConnectionListChangedEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Core/Models/MessageModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.TestApp/Views/Home/Phantom.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Server/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Services/IConnectionService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Client/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.SignalR/Services/ConnectionService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90EFB080-30F1-48C6-97F9-3C52A92BDDDA/b0/eb045cd5/_ThreadPoolWaitCallback.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Helpers/LogHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.SignalR/Net/Connection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Events/ConsoleWriterEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.SignalR/Hubs/ObservableHub.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Client/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Pastor.Client/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90EFB080-30F1-48C6-97F9-3C52A92BDDDA/43/ed034945/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90EFB080-30F1-48C6-97F9-3C52A92BDDDA/1d/8b4638da/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Server/Hubs/MessengerHub.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pastor.Server/Security/ConnectionUserIdProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Client/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.TestApp/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Core/Models/MessageModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.TestApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Pastor.LoadTest/Net/IConnectionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Client/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Client/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Pastor.LoadTest/Tests/CrowdedTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.TestApp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Server/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.TestApp/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pastor.Client/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EEE77CDA-B32D-4586-A92A-322853CCE8B6/1b/cc6f2683/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Net/IServer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.SignalR/Net/Connection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Net/ConnectionState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Services/IConnectionService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Pastor.LoadTest/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Sys/ConsoleWriter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.TestApp/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Auth/UserRoles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2474984-E3A5-4633-B2C0-17DA95A760ED/66/416ea579/ConcurrentDictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Events/ConnectionListChangedEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Server/Net/Server.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.TestApp/Views/Home/Phantom.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Events/ConsoleWriterEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Helpers/LogHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Helpers/LinqExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90EFB080-30F1-48C6-97F9-3C52A92BDDDA/1d/8b4638da/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/540A30D0-A031-4084-807D-B058D5033896/59/1d818192/InvalidOperationException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.SignalR/Hubs/ObservableHub.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.Infrastructure/Net/IConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Pastor.SignalR/Services/ConnectionService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Pastor.LoadTest/Net/ConnectionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90EFB080-30F1-48C6-97F9-3C52A92BDDDA/43/ed034945/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Pastor.Infrastructure/Class1.cs" />
-        <option value="$PROJECT_DIR$/Pastor.Core/Models/MessageModel.cs" />
-        <option value="$PROJECT_DIR$/Pastor.Infrastructure/Net/ConnectionState.cs" />
-        <option value="$PROJECT_DIR$/Pastor.Infrastructure/Events/ConnectionListChangedEventArgs.cs" />
         <option value="$PROJECT_DIR$/Pastor.Infrastructure/Net/IServer.cs" />
         <option value="$PROJECT_DIR$/Pastor.Infrastructure/Helpers/LogHelper.cs" />
         <option value="$PROJECT_DIR$/Pastor.Infrastructure/Services/IConnectionService.cs" />
@@ -265,29 +121,33 @@
         <option value="$PROJECT_DIR$/Pastor.SignalR/Net/Connection.cs" />
         <option value="$PROJECT_DIR$/Pastor.Infrastructure/Helpers/LinqExtension.cs" />
         <option value="$PROJECT_DIR$/Pastor.SignalR/Services/ConnectionService.cs" />
-        <option value="$PROJECT_DIR$/Pastor.Server/Net/Server.cs" />
         <option value="$PROJECT_DIR$/Pastor.Infrastructure/Events/MessageAvailableEventHandler.cs" />
         <option value="$PROJECT_DIR$/Pastor.Infrastructure/Sys/StreamWatcher.cs" />
         <option value="$PROJECT_DIR$/Pastor.Infrastructure/Events/ConsoleWriterEventArgs.cs" />
         <option value="$PROJECT_DIR$/Pastor.Infrastructure/Sys/Terminal.cs" />
         <option value="$PROJECT_DIR$/Pastor.Server/Program.cs" />
         <option value="$PROJECT_DIR$/Pastor.Infrastructure/Sys/ConsoleWriter.cs" />
-        <option value="$PROJECT_DIR$/Pastor.Client/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/Pastor.TestApp/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Pastor.TestApp/Views/Home/Phantom.cshtml" />
-        <option value="$PROJECT_DIR$/Pastor.TestApp/wwwroot/js/signalrclient.js" />
         <option value="$PROJECT_DIR$/Pastor.LoadTest/Net/IConnectionManager.cs" />
         <option value="$PROJECT_DIR$/Pastor.LoadTest/Net/ConnectionManager.cs" />
         <option value="$PROJECT_DIR$/Pastor.LoadTest/Tests/TestOptions.cs" />
         <option value="$PROJECT_DIR$/Pastor.LoadTest/Tests/CrowdedTest.cs" />
-        <option value="$PROJECT_DIR$/Pastor.Client/wwwroot/js/pastor.js" />
-        <option value="$PROJECT_DIR$/Pastor.Client/wwwroot/js/charts.js" />
         <option value="$PROJECT_DIR$/Pastor.LoadTest/Program.cs" />
-        <option value="$PROJECT_DIR$/Pastor.Client/wwwroot/css/site.css" />
         <option value="$PROJECT_DIR$/Pastor.TestApp/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/Pastor.TestApp/wwwroot/css/site.css" />
-        <option value="$PROJECT_DIR$/Pastor.SignalR/Hubs/ObservableHub.cs" />
+        <option value="$PROJECT_DIR$/Pastor.Server/Net/Server.cs" />
+        <option value="$PROJECT_DIR$/Pastor.Client/wwwroot/js/charts.js" />
         <option value="$PROJECT_DIR$/Pastor.Client/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Pastor.Client/wwwroot/js/datatable.js" />
+        <option value="$PROJECT_DIR$/Pastor.SignalR/Hubs/ObservableHub.cs" />
+        <option value="$PROJECT_DIR$/../Pastor.LoadTest/Net/IConnectionManager.cs" />
+        <option value="$PROJECT_DIR$/../Pastor.LoadTest/Net/ConnectionManager.cs" />
+        <option value="$PROJECT_DIR$/../Pastor.LoadTest/Program.cs" />
+        <option value="$PROJECT_DIR$/Pastor.TestApp/wwwroot/js/signalrclient.js" />
+        <option value="$PROJECT_DIR$/Pastor.Client/wwwroot/css/site.css" />
+        <option value="$PROJECT_DIR$/Pastor.Client/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Pastor.Client/wwwroot/js/pastor.js" />
       </list>
     </option>
   </component>
@@ -298,50 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Pastor" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Pastor" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Pastor.Client" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Pastor" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Pastor.Client" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Pastor" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Pastor.Client" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Home" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1UQ68hXA1RB2x5g3JxUUw6wN5Po" />
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -362,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.Pastor.Server">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Pastor.Client: IIS Express">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -382,14 +199,14 @@
       </method>
     </configuration>
     <configuration name="Pastor.LoadTest" type="DotNetProject" factoryName=".NET Project" temporary="true">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/Pastor.LoadTest/bin/Debug/netcoreapp2.1/Pastor.LoadTest.dll" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Pastor.LoadTest/bin/Debug/netcoreapp2.1/Pastor.LoadTest.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pastor.LoadTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Pastor.LoadTest" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Pastor.LoadTest/Pastor.LoadTest.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/../Pastor.LoadTest/Pastor.LoadTest.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -456,10 +273,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue=".NET Project.Pastor.Server" />
         <item itemvalue=".NET Launch Settings Profile.Pastor.Client: IIS Express" />
-        <item itemvalue=".NET Launch Settings Profile.Pastor.TestApp: IIS Express" />
         <item itemvalue=".NET Project.Pastor.LoadTest" />
+        <item itemvalue=".NET Project.Pastor.Server" />
+        <item itemvalue=".NET Launch Settings Profile.Pastor.TestApp: IIS Express" />
       </list>
     </recent_temporary>
   </component>
@@ -481,60 +298,34 @@
       <workItem from="1568271064241" duration="17490000" />
       <workItem from="1568363567425" duration="12585000" />
       <workItem from="1568636721628" duration="10970000" />
-      <workItem from="1568664340799" duration="2206000" />
+      <workItem from="1568664340799" duration="9803000" />
+      <workItem from="1568718730219" duration="9865000" />
+      <workItem from="1568742561788" duration="7410000" />
+      <workItem from="1568790962979" duration="1655000" />
+      <workItem from="1568891820464" duration="7236000" />
+      <workItem from="1575276315477" duration="5588000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129115000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3343465" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32826748" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.19959474" />
-      <window_info anchor="bottom" id="TeamCity" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" />
-      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="16" weight="0.32624114" />
-      <window_info anchor="bottom" id="REST Client" order="17" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -542,525 +333,33 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/../Pastor.LoadTest/Program.cs</url>
+          <line>21</line>
+          <properties documentPath="$PROJECT_DIR$/../Pastor.LoadTest/Program.cs" initialLine="21">
+            <startOffsets>
+              <option value="430" />
+            </startOffsets>
+            <endOffsets>
+              <option value="511" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/../Pastor.LoadTest/Program.cs</url>
+          <line>30</line>
+          <properties documentPath="$PROJECT_DIR$/../Pastor.LoadTest/Program.cs" initialLine="30">
+            <startOffsets>
+              <option value="808" />
+            </startOffsets>
+            <endOffsets>
+              <option value="830" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pastor.Server/Services/ConnectionService.cs" />
-    <entry file="file://$PROJECT_DIR$/Pastor.TestApp/Properties/launchSettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/Controllers/HomeController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <marker date="1567713232362" expanded="true" signature="6:154" ph="..." />
-            <marker date="1567713232362" expanded="true" signature="191:300" ph="{...}" />
-            <marker date="1567713232362" expanded="true" signature="235:298" ph="{...}" />
-            <marker date="1567713232362" expanded="true" signature="269:295" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/Views/_ViewImports.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/wwwroot/js/site.js" />
-    <entry file="file://$PROJECT_DIR$/Pastor.TestApp/Views/_ViewImports.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.TestApp/Views/Shared/_Layout.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/app.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/appsettings.Development.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/Properties/launchSettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/wwwroot/js/datetime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Server/Hubs/MessengerHub.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <marker date="1567711616924" expanded="true" signature="6:170" ph="..." />
-            <marker date="1567711616924" expanded="true" signature="204:262" ph="/* using Microsoft.AspNetCore.Authorization; ... */" />
-            <marker date="1567711616924" expanded="true" signature="305:1430" ph="{...}" />
-            <marker date="1567711616924" expanded="true" signature="311:407" ph="Constants" />
-            <marker date="1567711616924" expanded="true" signature="413:638" ph="Constructors" />
-            <marker date="1567711616924" expanded="true" signature="437:532" ph="/// Constructor ... " />
-            <marker date="1567711616924" expanded="true" signature="618:624" ph="{...}" />
-            <marker date="1567711616924" expanded="true" signature="644:1427" ph="Methods" />
-            <marker date="1567711616924" expanded="true" signature="722:1076" ph="{...}" />
-            <marker date="1567711616924" expanded="true" signature="771:873" ph="{...}" />
-            <marker date="1567711616924" expanded="true" signature="1123:1413" ph="{...}" />
-            <marker date="1567711616924" expanded="true" signature="1172:1242" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90EFB080-30F1-48C6-97F9-3C52A92BDDDA/1d/8b4638da/ExceptionDispatchInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90EFB080-30F1-48C6-97F9-3C52A92BDDDA/43/ed034945/ExecutionContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="155" column="6" selection-start-line="155" selection-start-column="6" selection-end-line="155" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/90EFB080-30F1-48C6-97F9-3C52A92BDDDA/b0/eb045cd5/_ThreadPoolWaitCallback.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/wwwroot/css/kingtable/kingtable.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="642" column="29" selection-start-line="642" selection-start-column="29" selection-end-line="642" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Server/Security/ConnectionUserIdProvider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <marker date="1567960014847" expanded="true" signature="69:246" ph="{...}" />
-            <marker date="1567960014847" expanded="true" signature="128:244" ph="{...}" />
-            <marker date="1567960014847" expanded="true" signature="190:241" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Infrastructure/Auth/UserRoles.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <marker date="1567964382985" expanded="true" signature="36:87" ph="{...}" />
-            <marker date="1567964382985" expanded="true" signature="61:85" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EEE77CDA-B32D-4586-A92A-322853CCE8B6/1b/cc6f2683/Enumerable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="2890" column="4" selection-start-line="2890" selection-start-column="4" selection-end-line="2892" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Infrastructure/Helpers/LinqExtension.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="7" column="104" lean-forward="true" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="104" />
-          <folding>
-            <marker date="1567970053676" expanded="true" signature="6:47" ph="..." />
-            <marker date="1567970053676" expanded="true" signature="88:303" ph="{...}" />
-            <marker date="1567970053676" expanded="true" signature="125:301" ph="{...}" />
-            <marker date="1567970053676" expanded="true" signature="227:298" ph="{...}" />
-            <marker date="1567970053676" expanded="true" signature="263:294" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/wwwroot/css/site.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Infrastructure/Events/MessageAvailableEventHandler.cs" />
-    <entry file="file://$PROJECT_DIR$/Pastor.Infrastructure/Sys/StreamWatcher.cs" />
-    <entry file="file://$PROJECT_DIR$/Pastor.Infrastructure/Events/ConsoleWriterEventArgs.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <marker date="1568142179938" expanded="true" signature="53:236" ph="{...}" />
-            <marker date="1568142179938" expanded="true" signature="104:234" ph="{...}" />
-            <marker date="1568142179938" expanded="true" signature="200:231" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Infrastructure/Sys/Terminal.cs" />
-    <entry file="file://$PROJECT_DIR$/Pastor.Server/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <marker date="1568142456042" expanded="true" signature="6:46" ph="..." />
-            <marker date="1568142456042" expanded="true" signature="71:211" ph="{...}" />
-            <marker date="1568142456042" expanded="true" signature="95:209" ph="{...}" />
-            <marker date="1568142456042" expanded="true" signature="132:206" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Infrastructure/Sys/ConsoleWriter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-          <folding>
-            <marker date="1568151169519" expanded="true" signature="6:85" ph="..." />
-            <marker date="1568151169519" expanded="true" signature="122:917" ph="{...}" />
-            <marker date="1568151169519" expanded="true" signature="165:915" ph="{...}" />
-            <marker date="1568151169519" expanded="true" signature="244:346" ph="{...}" />
-            <marker date="1568151169519" expanded="true" signature="255:342" ph="{...}" />
-            <marker date="1568151169519" expanded="true" signature="581:614" ph="{...}" />
-            <marker date="1568151169519" expanded="true" signature="658:757" ph="{...}" />
-            <marker date="1568151169519" expanded="true" signature="805:912" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.SignalR/Net/Connection.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-          <folding>
-            <marker date="1567965464055" expanded="true" signature="6:206" ph="..." />
-            <marker date="1567965464055" expanded="true" signature="236:1577" ph="{...}" />
-            <marker date="1567965464055" expanded="true" signature="277:1575" ph="{...}" />
-            <marker date="1567965464055" expanded="true" signature="283:377" ph="Fields" />
-            <marker date="1567965464055" expanded="true" signature="383:1021" ph="Properties" />
-            <marker date="1567965464055" expanded="true" signature="522:785" ph="{...}" />
-            <marker date="1567965464055" expanded="true" signature="533:728" ph="{...}" />
-            <marker date="1567965464055" expanded="true" signature="572:696" ph="{...}" />
-            <marker date="1567965464055" expanded="true" signature="744:781" ph="{...}" />
-            <marker date="1567965464055" expanded="true" signature="1025:1572" ph="Methods" />
-            <marker date="1567965464055" expanded="true" signature="1079:1115" ph="{...}" />
-            <marker date="1567965464055" expanded="true" signature="1166:1558" ph="{...}" />
-            <marker date="1567965464055" expanded="true" signature="1339:1554" ph="{...}" />
-            <marker date="1567965464055" expanded="true" signature="1443:1549" ph="{...}" />
-            <marker date="1567965464055" expanded="true" signature="1490:1543" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Infrastructure/Net/IConnection.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <marker date="1567964411011" expanded="true" signature="6:173" ph="..." />
-            <marker date="1567964411011" expanded="true" signature="210:636" ph="{...}" />
-            <marker date="1567964411011" expanded="true" signature="242:634" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Server/Net/Server.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2318">
-          <caret line="146" column="60" selection-start-line="146" selection-start-column="60" selection-end-line="146" selection-end-column="60" />
-          <folding>
-            <marker date="1568139546044" expanded="true" signature="6:581" ph="..." />
-            <marker date="1568139546044" expanded="true" signature="610:4542" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="643:4540" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="649:787" ph="Constants" />
-            <marker date="1568139546044" expanded="true" signature="793:919" ph="Properties" />
-            <marker date="1568139546044" expanded="true" signature="925:1026" ph="Events" />
-            <marker date="1568139546044" expanded="true" signature="1030:4537" ph="Methods" />
-            <marker date="1568139546044" expanded="true" signature="1097:1305" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="1380:1603" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="1412:1459" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="1550:1597" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="1667:4096" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="1788:1962" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="1973:2076" ph="/* this.Services.AddIdentity&lt;ApplicationUser, IdentityRole&gt;() ... */" />
-            <marker date="1568139546044" expanded="true" signature="2127:2441" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="2142:2261" ph="/* Identity made Cookie authentication the default. ... */" />
-            <marker date="1568139546044" expanded="true" signature="2474:3823" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="2610:2859" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="2875:3123" ph="/* We have to hook the OnMessageReceived event in order to ... */" />
-            <marker date="1568139546044" expanded="true" signature="3187:3811" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="3254:3796" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="3555:3722" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="4124:4308" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="4135:4215" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="4239:4287" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="4335:4523" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="4346:4430" ph="{...}" />
-            <marker date="1568139546044" expanded="true" signature="4454:4502" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.TestApp/Controllers/HomeController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <marker date="1568278479660" expanded="true" signature="6:154" ph="..." />
-            <marker date="1568278479660" expanded="true" signature="192:363" ph="{...}" />
-            <marker date="1568278479660" expanded="true" signature="236:361" ph="{...}" />
-            <marker date="1568278479660" expanded="true" signature="270:296" ph="{...}" />
-            <marker date="1568278479660" expanded="true" signature="332:358" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.TestApp/Views/Home/Phantom.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.TestApp/wwwroot/js/signalrclient.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2617">
-          <caret line="193" column="48" lean-forward="true" selection-start-line="193" selection-start-column="48" selection-end-line="193" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.sln">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.LoadTest/Net/IConnectionManager.cs" />
-    <entry file="file://$PROJECT_DIR$/Pastor.LoadTest/Tests/TestOptions.cs" />
-    <entry file="file://$PROJECT_DIR$/Pastor.LoadTest/Net/ConnectionManager.cs" />
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/wwwroot/js/pastor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="116" column="71" lean-forward="true" selection-start-line="116" selection-start-column="71" selection-end-line="116" selection-end-column="71" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#!!block;n#formatDate#0;n#!!block;n#initializeSignalRAdmin#0" />
-            <element signature="n#!!block;n#loginToServer#0;n#!!block;n#initializeSignalRAdmin#0" />
-            <element signature="n#!!block;n#logout#0;n#!!block;n#initializeSignalRAdmin#0" />
-            <element signature="n#!!block;n#showConsole#0;n#!!block;n#initializeSignalRAdmin#0" />
-            <element signature="n#!!block;n#closeConsole#0;n#!!block;n#initializeSignalRAdmin#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.LoadTest/Tests/CrowdedTest.cs" />
-    <entry file="file://$PROJECT_DIR$/Pastor.LoadTest/Program.cs" />
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/Views/Shared/_Layout.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1568151978134" expanded="true" signature="1461:1784" ph="@*...*@" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/540A30D0-A031-4084-807D-B058D5033896/59/1d818192/InvalidOperationException.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.TestApp/wwwroot/css/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="202" column="23" lean-forward="true" selection-start-line="202" selection-start-column="23" selection-end-line="202" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.TestApp/Views/Home/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-          <folding>
-            <marker date="1568660050683" expanded="true" signature="0:41" ph="@..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/wwwroot/css/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="339" column="4" selection-start-line="339" selection-start-column="4" selection-end-line="340" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/wwwroot/js/charts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="268" column="130" selection-start-line="268" selection-start-column="130" selection-end-line="268" selection-end-column="130" />
-          <folding>
-            <element signature="n#!!block;n#dateToMinuteResolution#0" />
-            <element signature="n#!!block;n#dateToSecondsResolution#0" />
-            <element signature="n#!!block;n#differentToTimeSpan#0" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#!!block;n#loadChart#0" />
-            <element signature="n#!!block;n#createChart#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.SignalR/Services/ConnectionService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1577">
-          <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
-          <folding>
-            <marker date="1567970508997" expanded="true" signature="6:343" ph="..." />
-            <marker date="1567970508997" expanded="true" signature="378:5853" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="433:5851" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="439:730" ph="Properties" />
-            <marker date="1567970508997" expanded="true" signature="734:848" ph="Events" />
-            <marker date="1567970508997" expanded="true" signature="852:5848" ph="Methods" />
-            <marker date="1567970508997" expanded="true" signature="924:1057" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="1104:1181" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="1234:1312" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="1342:1590" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="1449:1586" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="1508:1581" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="1674:2021" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="1735:2017" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="1832:1952" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="2063:2148" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="2207:2327" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="2419:3358" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="2554:3237" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="2893:2957" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="3103:3206" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="3245:3354" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="3431:3720" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="3517:3581" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="3600:3696" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="3781:4357" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="3866:4330" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="3944:4218" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="4101:4210" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="4227:4324" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="4409:4762" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="4506:4736" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="4569:4731" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="4855:5832" ph="{...}" />
-            <marker date="1567970508997" expanded="true" signature="5011:5809" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/wwwroot/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.SignalR/Hubs/ObservableHub.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding>
-            <marker date="1568663756952" expanded="true" signature="6:348" ph="..." />
-            <marker date="1568663756952" expanded="true" signature="379:10804" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="470:10802" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="476:1296" ph="Constants" />
-            <marker date="1568663756952" expanded="true" signature="1302:1390" ph="Services" />
-            <marker date="1568663756952" expanded="true" signature="1394:1467" ph="Fields" />
-            <marker date="1568663756952" expanded="true" signature="1473:1575" ph="Properties" />
-            <marker date="1568663756952" expanded="true" signature="1579:1934" ph="Constructors" />
-            <marker date="1568663756952" expanded="true" signature="1603:1698" ph="/// Constructor ... " />
-            <marker date="1568663756952" expanded="true" signature="1762:1920" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="1938:3807" ph="Methods" />
-            <marker date="1568663756952" expanded="true" signature="1998:2197" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="2262:2468" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="2515:2983" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="2741:2829" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="3032:3505" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="3258:3351" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="3561:3661" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="3746:3793" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="3811:8455" ph="Rpc Methods" />
-            <marker date="1568663756952" expanded="true" signature="3834:4061" ph="/// Publish to single client ... " />
-            <marker date="1568663756952" expanded="true" signature="4200:4537" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="4543:4726" ph="/// Publish to all clients ... " />
-            <marker date="1568663756952" expanded="true" signature="4847:5145" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="5151:5373" ph="/// Publish to all clients ... " />
-            <marker date="1568663756952" expanded="true" signature="5512:5836" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="5842:6032" ph="/// Publish to just caller client ... " />
-            <marker date="1568663756952" expanded="true" signature="6152:6445" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="6477:6636" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="6687:7015" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="7052:7351" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="7386:7700" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="7744:8060" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="8098:8441" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="8461:10230" ph="Event Handlers" />
-            <marker date="1568663756952" expanded="true" signature="8597:10216" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="8608:10043" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="8660:9315" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="8689:9193" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="9324:10038" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="9353:9897" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="10074:10212" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="10234:10799" ph="Disposing" />
-            <marker date="1568663756952" expanded="true" signature="10309:10382" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="10436:10733" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="10500:10697" ph="{...}" />
-            <marker date="1568663756952" expanded="true" signature="10753:10785" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pastor.Client/Views/Home/Index.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#!!top" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#div#2;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#a#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <marker date="1568667384600" expanded="true" signature="0:54" ph="@..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
